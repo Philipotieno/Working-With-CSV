@@ -29,8 +29,8 @@ print("Field names are:" + ", ".join(field for field in fields))
 
 # Print first five rows
 print('\nFirst 5 rows are:\n')
-for row in rows[:5]:
+for row in rows[:1]:
     # parsing each column of a row
-    for col in rows:
-        print("%s"%col),
+    for col in rows[3:5]:
+        print("%10s"%col),
     print('\n')
